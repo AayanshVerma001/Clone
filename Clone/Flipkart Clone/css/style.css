@@ -1,0 +1,17 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1542834369-f10ebf06d3cb') no-repeat center center/cover;
+  padding: 100px 0;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
